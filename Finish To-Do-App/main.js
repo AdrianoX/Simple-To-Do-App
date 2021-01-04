@@ -42,6 +42,7 @@ button.textContent = 'Click';
 
 const incrementation = () => {
     ourNewObject.textContent++;
+    console.log(ourNewObject.textContent)
 }
 
 window.addEventListener('click', incrementation);
